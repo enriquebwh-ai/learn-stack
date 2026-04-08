@@ -15,9 +15,9 @@ export default function Home() {
           <a href="#proyectos" className="text-zinc-300 hover:text-white transition">Proyectos</a>
           <a href="#precios" className="text-zinc-300 hover:text-white transition">Precios</a>
         </nav>
-        <button className="bg-white text-slate-900 px-5 py-2 rounded-full font-semibold hover:bg-zinc-100 transition">
+        <a href="/auth" className="bg-white text-slate-900 px-5 py-2 rounded-full font-semibold hover:bg-zinc-100 transition">
           Comenzar
-        </button>
+        </a>
       </header>
 
       <main className="flex-1 flex flex-col items-center justify-center px-8 py-20 text-center">
@@ -37,9 +37,9 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-16">
-          <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:opacity-90 transition">
+          <a href="/auth" className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:opacity-90 transition">
             Empezar Gratis
-          </button>
+          </a>
           <button className="border border-zinc-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-zinc-800 transition">
             Ver Demo
           </button>
@@ -137,25 +137,25 @@ export default function Home() {
                 <li>✓ Tutoriales básicos</li>
                 <li>✓ Comunidad Discord</li>
               </ul>
-              <button className="w-full border border-purple-500 text-purple-400 py-3 rounded-full font-semibold hover:bg-purple-500/10 transition">
+              <a href="/auth" className="w-full border border-purple-500 text-purple-400 py-3 rounded-full font-semibold hover:bg-purple-500/10 transition block text-center">
                 Empezar gratis
-              </button>
+              </a>
             </div>
 
             <div className="bg-gradient-to-br from-purple-600 to-pink-600 border border-purple-400 rounded-2xl p-8">
               <div className="inline-block bg-white/20 text-white text-sm px-3 py-1 rounded-full mb-4">Popular</div>
               <h3 className="text-xl font-semibold text-white mb-2">Pro</h3>
-              <div className="text-5xl font-bold text-white mb-6">$29<span className="text-lg text-white/70">/mes</span></div>
+              <div className="text-5xl font-bold text-white mb-6">3€<span className="text-lg text-white/70">/mes</span></div>
               <ul className="text-white/90 text-left space-y-3 mb-8">
-                <li>✓ Proyectos ilimitados</li>
                 <li>✓ Todos los cursos</li>
-                <li>✓ Certificados</li>
-                <li>✓ Soporte prioritario</li>
-                <li>✓ Middleware avanzado</li>
+                <li>✓ Contenido premium</li>
+                <li>✓ Acceso a proyectos</li>
+                <li>✓ Soporte por email</li>
+                <li>✓ Middleware básico</li>
               </ul>
-              <button className="w-full bg-white text-purple-600 py-3 rounded-full font-semibold hover:bg-zinc-100 transition">
-                Obtener Pro
-              </button>
+              <a href="/auth" className="w-full bg-white text-purple-600 py-3 rounded-full font-semibold hover:bg-zinc-100 transition block text-center">
+                Obtener PRO
+              </a>
             </div>
           </div>
         </div>
